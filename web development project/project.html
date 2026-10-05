@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Documentation & Live Deployment | BCA Sem I</title>
+  <meta name="description" content="Technical documentation and live deployment guide for the BCA Semester I Tiny Project titled Design, Development and Live Deployment of a Student Profile Website.">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo.svg" alt="Project Logo" width="38" height="38">
+        <div class="brand-text">
+          <span class="brand-title">BCA Portfolio</span>
+          <span class="brand-badge">Tiny Project • Sem I</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+        <a href="sumit.html" class="nav-link"><i class="fas fa-user-graduate"></i> Sumit's Profile</a>
+        <a href="nitin.html" class="nav-link"><i class="fas fa-user-graduate"></i> Nitin's Profile</a>
+        <a href="project.html" class="nav-link active"><i class="fas fa-book-open"></i> Project &amp; Deployment</a>
+        <a href="contact.html" class="nav-link"><i class="fas fa-paper-plane"></i> Contact &amp; Feedback</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="section" style="padding-bottom: 2rem;">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-tag"><i class="fas fa-file-code"></i> Academic Documentation</span>
+        <h1>Project Report &amp; <span class="text-gradient">Live Deployment</span></h1>
+        <p class="section-subtitle">
+          Detailed technical report, system architecture, syllabus fulfillment analysis, and complete live cloud deployment guide for the BCA Semester I practical examination.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="container" style="margin-bottom: 5rem;">
+    <div class="container-narrow" style="margin: 0 auto;">
+
+      <!-- Project Metadata Overview Card -->
+      <div class="doc-box" style="border-left: 5px solid var(--primary);">
+        <div class="flex-between items-center" style="margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <h3 style="font-size: 1.3rem;">BCA Semester I Tiny Project Details</h3>
+          <span class="badge badge-primary">Course Code: BCA-SEM1-WD</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; font-size: 0.92rem;">
+          <div>
+            <strong style="color: var(--text-main);">Project Title:</strong><br>
+            <span style="color: var(--text-muted);">Design, Development and Live Deployment of a Student Profile Website</span>
+          </div>
+          <div>
+            <strong style="color: var(--text-main);">Course &amp; Subject:</strong><br>
+            <span style="color: var(--text-muted);">BCA Semester I • Fundamentals of Web Development</span>
+          </div>
+          <div>
+            <strong style="color: var(--text-main);">Contributing Students:</strong><br>
+            <span style="color: var(--text-muted);">Sumit Kumar &amp; Nitin Raj (Roll: 26UG100364)</span>
+          </div>
+          <div>
+            <strong style="color: var(--text-main);">Institution:</strong><br>
+            <span style="color: var(--text-muted);">Faculty of IT &amp; Computer Science, Parul University</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 1. Abstract & Objectives -->
+      <div class="doc-box">
+        <h2 style="font-size: 1.4rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem;">
+          <i class="fas fa-bullseye" style="color: var(--primary);"></i> 1. Project Abstract &amp; Objectives
+        </h2>
+        <p style="margin-bottom: 1rem; line-height: 1.75;">
+          The primary objective of this project is to build a modern, high-performance, and fully responsive multi-page student portfolio website. It acts as both a showcase for the academic journeys of two BCA students and a practical demonstration of modern front-end web engineering standards.
+        </p>
+        
+        <h4 style="margin: 1.2rem 0 0.6rem 0;">Key Syllabus Learning Objectives:</h4>
+        <ul style="list-style: disc; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.95rem; color: var(--text-muted);">
+          <li>Master semantic HTML5 element hierarchy for high accessibility and SEO friendliness.</li>
+          <li>Apply modern CSS3 layout paradigms, including <strong>CSS Flexbox</strong> and <strong>CSS Grid</strong>.</li>
+          <li>Implement responsive web design principles supporting mobile, tablet, and widescreen displays.</li>
+          <li>Incorporate custom CSS variables to enable seamless real-time <strong>Dark/Light Mode theming</strong> with persistence.</li>
+          <li>Demonstrate JavaScript DOM manipulation, event listeners, and client-side form validation.</li>
+          <li>Execute live cloud deployment using <strong>GitHub Pages</strong>, understanding version control and static web hosting.</li>
+        </ul>
+      </div>
+
+      <!-- 2. Technical Architecture & File Hierarchy -->
+      <div class="doc-box">
+        <h2 style="font-size: 1.4rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem;">
+          <i class="fas fa-sitemap" style="color: var(--primary);"></i> 2. Technical Architecture &amp; File Structure
+        </h2>
+        <p style="margin-bottom: 1rem;">
+          The project follows a clean, modular, and maintainable file structure where styling, scripts, and media are cleanly separated from HTML documents:
+        </p>
+
+        <div class="code-snippet">
+web development project/
+├── index.html              # Home Page (Hero, quick profile cards, highlights)
+├── sumit.html              # Student 1 Profile (Sumit Kumar)
+├── nitin.html              # Student 2 Profile (Nitin Raj)
+├── project.html            # Academic Documentation &amp; Live Deployment Guide
+├── contact.html            # Interactive Contact Form &amp; FAQ Accordion
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Unified CSS3 Stylesheet (Variables, Dark Mode, Grid)
+│   ├── js/
+│   │   ├── main.js         # Theme toggle, Mobile nav, Animations, Modals
+│   │   └── contact.js      # Form validation, Star rating, Toast alerts
+│   └── images/
+│       ├── logo.svg        # Scalable Vector Graphics Project Logo
+│       ├── sumit-avatar.svg# Vector Avatar for Sumit Kumar
+│       └── nitin-avatar.svg# Vector Avatar for Nitin Raj
+└── README.md               # Quickstart, viva notes &amp; deployment guide
+        </div>
+      </div>
+
+      <!-- 3. Step-by-Step Live Deployment Guide -->
+      <div class="doc-box" id="deployment-guide">
+        <h2 style="font-size: 1.4rem; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.6rem;">
+          <i class="fas fa-cloud-upload-alt" style="color: var(--secondary);"></i> 3. Step-by-Step Live Deployment Guide
+        </h2>
+        <p style="margin-bottom: 2rem;">
+          To satisfy the <strong>“Live Deployment”</strong> criteria of the project title, the website can be deployed live to the internet using <strong>GitHub Pages</strong> or <strong>Vercel/Netlify</strong> for zero cost. Follow the steps below during your practical evaluation:
+        </p>
+
+        <!-- Method 1: GitHub Pages -->
+        <h3 style="font-size: 1.2rem; color: var(--primary); margin-bottom: 1.2rem; display: flex; align-items: center; gap: 0.5rem;">
+          <i class="fab fa-github"></i> Method A: Deploying with GitHub Pages (Recommended)
+        </h3>
+
+        <!-- Step 1 -->
+        <div class="doc-step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h4>Initialize Git Repository</h4>
+            <p style="font-size: 0.92rem;">
+              Open PowerShell or Terminal in the project directory and initialize a Git repository:
+            </p>
+            <div class="code-snippet">
+git init
+git add .
+git commit -m "Initial commit: BCA Sem 1 Student Profile Website"
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="doc-step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h4>Create GitHub Repository &amp; Push</h4>
+            <p style="font-size: 0.92rem;">
+              Create a new public repository on <a href="https://github.com" target="_blank" style="color: var(--primary); text-decoration: underline;">GitHub.com</a> named <code>student-profile-website</code>, then link and push:
+            </p>
+            <div class="code-snippet">
+git branch -M main
+git remote add origin https://github.com/&lt;your-github-username&gt;/student-profile-website.git
+git push -u origin main
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="doc-step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h4>Enable GitHub Pages</h4>
+            <p style="font-size: 0.92rem; line-height: 1.6;">
+              1. Open your repository on GitHub and click on the <strong>Settings</strong> tab.<br>
+              2. On the left sidebar, click on <strong>Pages</strong>.<br>
+              3. Under <strong>Build and deployment &rarr; Branch</strong>, select <code>main</code> and folder <code>/ (root)</code>.<br>
+              4. Click <strong>Save</strong>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="doc-step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h4>Access Your Live Website</h4>
+            <p style="font-size: 0.92rem;">
+              Within 60 seconds, GitHub Pages compiles the site and provides an active HTTPS live URL:
+            </p>
+            <div class="code-snippet">
+https://&lt;your-github-username&gt;.github.io/student-profile-website/
+            </div>
+            <p style="font-size: 0.88rem; color: var(--success); font-weight: 600;">
+              <i class="fas fa-check-circle"></i> The website is now globally accessible on any smartphone, tablet, or PC!
+            </p>
+          </div>
+        </div>
+
+        <!-- Method 2: Vercel / Netlify -->
+        <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color);">
+          <h3 style="font-size: 1.15rem; color: var(--secondary); margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-bolt"></i> Method B: Instant Drag &amp; Drop via Netlify
+          </h3>
+          <p style="font-size: 0.92rem; line-height: 1.6;">
+            1. Visit <a href="https://app.netlify.com/drop" target="_blank" style="color: var(--primary); text-decoration: underline;">netlify.com/drop</a>.<br>
+            2. Simply drag and drop the <code>web development project</code> folder onto the browser window.<br>
+            3. Netlify will generate an instant live URL (e.g., <code>https://bca-student-profile.netlify.app</code>) in under 10 seconds.
+          </p>
+        </div>
+      </div>
+
+      <!-- 4. Viva Voce Preparation & Practical Questions -->
+      <div class="viva-box">
+        <h3 class="viva-title">
+          <i class="fas fa-question-circle"></i> Viva Voce Practical Questions &amp; Answers
+        </h3>
+        <p style="font-size: 0.92rem; margin-bottom: 1.2rem;">
+          Be ready to answer these common questions during your practical viva evaluation:
+        </p>
+
+        <div style="display: flex; flex-direction: column; gap: 1.2rem;">
+          <div>
+            <strong>Q1: Why did you use semantic HTML5 elements?</strong>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.2rem;">
+              Semantic tags like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> provide meaningful context to web browsers, screen readers, and search engine crawlers, boosting accessibility and SEO compared to non-semantic generic <code>&lt;div&gt;</code> tags.
+            </p>
+          </div>
+
+          <div>
+            <strong>Q2: How does the Dark / Light Mode theme toggle work?</strong>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.2rem;">
+              We define CSS custom properties (variables) on the root element. When the toggle button is clicked, JavaScript updates the <code>data-theme="dark"</code> attribute on the <code>&lt;html&gt;</code> tag and saves the selection in the browser's <code>localStorage</code>, preserving user preference across refreshes.
+            </p>
+          </div>
+
+          <div>
+            <strong>Q3: How is responsive design achieved without heavy external frameworks?</strong>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.2rem;">
+              We used CSS Flexbox, CSS Grid layouts, fluid viewport units (<code>clamp()</code> for responsive fonts), and CSS media queries at <code>1024px</code>, <code>768px</code>, and <code>480px</code> to gracefully adapt layouts from mobile screens to desktop monitors.
+            </p>
+          </div>
+
+          <div>
+            <strong>Q4: How does client-side validation work in your contact form?</strong>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.2rem;">
+              JavaScript listens to <code>input</code> and <code>submit</code> events, applying regular expressions for email validation and checking length requirements. If an error is detected, CSS classes like <code>.is-invalid</code> provide immediate visual feedback before any data is sent.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 BCA Web Development Practical Project • <strong>Sumit Kumar</strong> &amp; <strong>Nitin Raj</strong>
+        </div>
+        <div class="flex gap-2 items-center">
+          <a href="index.html" class="footer-link">Home</a>
+          <span>•</span>
+          <a href="sumit.html" class="footer-link">Sumit</a>
+          <span>•</span>
+          <a href="nitin.html" class="footer-link">Nitin</a>
+          <span>•</span>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design, Development & Live Deployment of a Student Profile Website | BCA Sem I</title>
+  <meta name="description" content="BCA Semester I Tiny Project: Design, Development and Live Deployment of a Student Profile Website for Sumit Kumar and Nitin Raj.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo.svg" alt="Project Logo" width="38" height="38">
+        <div class="brand-text">
+          <span class="brand-title">BCA Portfolio</span>
+          <span class="brand-badge">Tiny Project • Sem I</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+        <a href="sumit.html" class="nav-link"><i class="fas fa-user-graduate"></i> Sumit's Profile</a>
+        <a href="nitin.html" class="nav-link"><i class="fas fa-user-graduate"></i> Nitin's Profile</a>
+        <a href="project.html" class="nav-link"><i class="fas fa-book-open"></i> Project & Deployment</a>
+        <a href="contact.html" class="nav-link"><i class="fas fa-paper-plane"></i> Contact & Feedback</a>
+      </nav>
+
+      <!-- Action Utilities -->
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-pill">
+            <span class="dot"></span>
+            <span>BCA Semester I Practical Project</span>
+          </div>
+
+          <h1 class="hero-title">
+            Design, Development &amp; Live Deployment of a <span class="text-gradient">Student Profile Website</span>
+          </h1>
+
+          <p class="hero-desc">
+            An academic portfolio website crafted to demonstrate the practical concepts of 
+            <strong>Fundamentals of Web Development</strong>. Featuring semantic HTML5 architecture, modern responsive CSS3, dynamic JavaScript interactivity, and live cloud deployment.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#students" class="btn btn-primary">
+              <i class="fas fa-users"></i> Explore Student Profiles
+            </a>
+            <a href="project.html" class="btn btn-secondary">
+              <i class="fas fa-rocket"></i> Deployment Guide
+            </a>
+          </div>
+
+          <!-- Academic Meta Info Strip -->
+          <div class="hero-meta-strip">
+            <div class="meta-item">
+              <div class="meta-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div>
+                <div class="meta-info-title">Course &amp; Semester</div>
+                <div class="meta-info-val">BCA • 1st Semester</div>
+              </div>
+            </div>
+
+            <div class="meta-item">
+              <div class="meta-icon"><i class="fas fa-laptop-code"></i></div>
+              <div>
+                <div class="meta-info-title">Subject</div>
+                <div class="meta-info-val">Web Development Practical</div>
+              </div>
+            </div>
+
+            <div class="meta-item">
+              <div class="meta-icon"><i class="fas fa-university"></i></div>
+              <div>
+                <div class="meta-info-title">Institution</div>
+                <div class="meta-info-val">Parul University, Vadodara</div>
+              </div>
+            </div>
+
+            <div class="meta-item">
+              <div class="meta-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+              <div>
+                <div class="meta-info-title">Deployment</div>
+                <div class="meta-info-val">GitHub Pages / Vercel Live</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Profiles Showcase Section -->
+    <section class="section" id="students" style="background: var(--bg-surface); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag"><i class="fas fa-user-friends"></i> Student Showcase</span>
+          <h2>Meet the Students</h2>
+          <p class="section-subtitle">
+            Explore the individual academic profiles, technical proficiencies, education history, and achievements of our two BCA scholars.
+          </p>
+        </div>
+
+        <div class="grid grid-2">
+          <!-- Student 1 Card: Sumit Kumar -->
+          <article class="student-card">
+            <div class="card-banner sumit-theme">
+              <span class="role-pill"><i class="fas fa-code"></i> Frontend &amp; UI</span>
+            </div>
+
+            <div class="card-body">
+              <div class="card-avatar-wrap">
+                <img src="assets/images/sumit-avatar.svg" alt="Sumit Kumar Profile Photo" class="card-avatar">
+                <span class="student-roll">BCA Sem I</span>
+              </div>
+
+              <h3 class="student-name">Sumit Kumar</h3>
+              <p class="student-degree">Bachelor of Computer Applications (BCA)</p>
+
+              <p class="student-bio">
+                Aspiring software developer with keen interest in modern front-end web development, clean UI/UX designs, and computer fundamentals. Excited about creating interactive user interfaces and responsive web layouts.
+              </p>
+
+              <div class="skill-tags-group">
+                <div class="skill-tags-title">Core Skills</div>
+                <div class="skill-tags-list">
+                  <span class="skill-tag">HTML5 &amp; CSS3</span>
+                  <span class="skill-tag">C Programming</span>
+                  <span class="skill-tag">Responsive Design</span>
+                  <span class="skill-tag">Git &amp; GitHub</span>
+                  <span class="skill-tag">Problem Solving</span>
+                </div>
+              </div>
+
+              <div class="card-footer-actions">
+                <div class="flex gap-1">
+                  <a href="sumit.html" class="btn btn-primary btn-sm">
+                    <i class="fas fa-external-link-alt"></i> View Full Profile
+                  </a>
+                  <button class="btn btn-secondary btn-sm" data-open-modal="sumit">
+                    <i class="fas fa-eye"></i> Quick View
+                  </button>
+                </div>
+
+                <div class="social-links">
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile" aria-label="Sumit LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile" aria-label="Sumit GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="mailto:sumit.student@example.com" class="social-link" title="Email Sumit" aria-label="Sumit Email">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Student 2 Card: Nitin Raj -->
+          <article class="student-card">
+            <div class="card-banner nitin-theme">
+              <span class="role-pill"><i class="fas fa-terminal"></i> Logic &amp; C Dev</span>
+            </div>
+
+            <div class="card-body">
+              <div class="card-avatar-wrap">
+                <img src="assets/images/nitin-avatar.svg" alt="Nitin Raj Profile Photo" class="card-avatar">
+                <span class="student-roll">Roll: 26UG100364</span>
+              </div>
+
+              <h3 class="student-name">Nitin Raj</h3>
+              <p class="student-degree">Bachelor of Computer Applications (BCA)</p>
+
+              <p class="student-bio">
+                Driven computer science student passionate about C programming, algorithm analysis, mathematical computing, and web foundations. Dedicated to continuous learning and building solid programming discipline.
+              </p>
+
+              <div class="skill-tags-group">
+                <div class="skill-tags-title">Core Skills</div>
+                <div class="skill-tags-list">
+                  <span class="skill-tag">C Programming</span>
+                  <span class="skill-tag">Algorithms &amp; Flowcharts</span>
+                  <span class="skill-tag">HTML5 / Web Dev</span>
+                  <span class="skill-tag">IT Fundamentals</span>
+                  <span class="skill-tag">Linux CLI</span>
+                </div>
+              </div>
+
+              <div class="card-footer-actions">
+                <div class="flex gap-1">
+                  <a href="nitin.html" class="btn btn-primary btn-sm">
+                    <i class="fas fa-external-link-alt"></i> View Full Profile
+                  </a>
+                  <button class="btn btn-secondary btn-sm" data-open-modal="nitin">
+                    <i class="fas fa-eye"></i> Quick View
+                  </button>
+                </div>
+
+                <div class="social-links">
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile" aria-label="Nitin LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile" aria-label="Nitin GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="mailto:nitin.student@example.com" class="social-link" title="Email Nitin" aria-label="Nitin Email">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Practical Web Development Highlights -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag secondary"><i class="fas fa-check-circle"></i> Syllabus Highlights</span>
+          <h2>Web Development Concepts Demonstrated</h2>
+          <p class="section-subtitle">
+            This project satisfies the practical requirements of the BCA Semester I syllabus through rigorous code standards.
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <!-- Card 1 -->
+          <div class="sidebar-card">
+            <div style="font-size: 2rem; color: var(--primary); margin-bottom: 0.8rem;">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h4>Semantic HTML5 Structure</h4>
+            <p style="font-size: 0.92rem; margin-top: 0.4rem;">
+              Proper use of semantic landmarks (<code style="color: var(--primary);">&lt;header&gt;</code>, <code style="color: var(--primary);">&lt;nav&gt;</code>, <code style="color: var(--primary);">&lt;main&gt;</code>, <code style="color: var(--primary);">&lt;section&gt;</code>, <code style="color: var(--primary);">&lt;article&gt;</code>, <code style="color: var(--primary);">&lt;footer&gt;</code>) ensuring accessibility and search-friendly markup.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="sidebar-card">
+            <div style="font-size: 2rem; color: var(--secondary); margin-bottom: 0.8rem;">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h4>Responsive CSS3 &amp; Flexbox/Grid</h4>
+            <p style="font-size: 0.92rem; margin-top: 0.4rem;">
+              Crafted with responsive layouts, CSS Custom Properties (Variables), dark/light mode theming, glassmorphism design, and mobile-friendly media queries.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="sidebar-card">
+            <div style="font-size: 2rem; color: var(--accent); margin-bottom: 0.8rem;">
+              <i class="fab fa-js"></i>
+            </div>
+            <h4>Interactive Vanilla JavaScript</h4>
+            <p style="font-size: 0.92rem; margin-top: 0.4rem;">
+              DOM manipulation, persistent theme toggle with <code style="color: var(--accent);">localStorage</code>, animated progress counters, live form validation, and accessible modal popups.
+            </p>
+          </div>
+        </div>
+
+        <!-- Academic Callout Banner -->
+        <div style="margin-top: 3.5rem; background: var(--bg-surface); border: 1.5px solid var(--border-color); border-radius: var(--radius-lg); padding: 2.2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; box-shadow: var(--shadow-sm);">
+          <div>
+            <span class="badge badge-primary" style="margin-bottom: 0.6rem;">Academic Viva-Ready</span>
+            <h3 style="margin-bottom: 0.3rem;">Need to understand how this website is deployed live?</h3>
+            <p style="font-size: 0.95rem;">Check our comprehensive deployment documentation for GitHub Pages, Netlify, and Vercel.</p>
+          </div>
+          <a href="project.html" class="btn btn-primary">
+            <i class="fas fa-cloud"></i> View Deployment Guide
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Quick View Modal Container -->
+  <div class="modal-overlay" id="studentModal" role="dialog" aria-modal="true" aria-labelledby="modalName">
+    <div class="modal-box">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      
+      <div style="display: flex; gap: 1.2rem; align-items: center; margin-bottom: 1.2rem;">
+        <img id="modalAvatar" src="" alt="Student Avatar" style="width: 80px; height: 80px; border-radius: 50%; border: 3px solid var(--primary); object-fit: cover;">
+        <div>
+          <h3 id="modalName" style="font-size: 1.35rem; margin-bottom: 0.2rem;">Student Name</h3>
+          <p id="modalRole" style="font-size: 0.9rem; color: var(--primary); font-weight: 600;">Student Role</p>
+          <span id="modalCourse" class="badge" style="margin-top: 0.2rem;">Course</span>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 1.2rem;">
+        <h4 style="font-size: 0.9rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem;">About</h4>
+        <p id="modalBio" style="font-size: 0.92rem; line-height: 1.6;"></p>
+      </div>
+
+      <div style="margin-bottom: 1.5rem;">
+        <h4 style="font-size: 0.9rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem;">Key Skills</h4>
+        <div id="modalSkills" style="display: flex; flex-wrap: wrap; gap: 0.4rem;"></div>
+      </div>
+
+      <div style="text-align: right; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+        <a id="modalProfileLink" href="#" class="btn btn-primary btn-sm">
+          <i class="fas fa-arrow-right"></i> Open Full Detailed Profile
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Summary -->
+        <div class="footer-brand">
+          <div class="brand-logo" style="margin-bottom: 0.8rem;">
+            <img src="assets/images/logo.svg" alt="Project Logo" width="36" height="36">
+            <span class="brand-title">BCA WebDev Portfolio</span>
+          </div>
+          <p>
+            Tiny Project titled <em>“Design, Development and Live Deployment of a Student Profile Website”</em> for BCA Semester I, Faculty of IT &amp; Computer Science, Parul University.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="footer-heading">Student Profiles</h4>
+          <ul class="footer-links">
+            <li><a href="sumit.html" class="footer-link"><i class="fas fa-chevron-right" style="font-size: 0.75rem;"></i> Sumit Kumar</a></li>
+            <li><a href="nitin.html" class="footer-link"><i class="fas fa-chevron-right" style="font-size: 0.75rem;"></i> Nitin Raj</a></li>
+            <li><a href="#students" class="footer-link"><i class="fas fa-chevron-right" style="font-size: 0.75rem;"></i> Compare Profiles</a></li>
+          </ul>
+        </div>
+
+        <!-- Academic Pages -->
+        <div>
+          <h4 class="footer-heading">Project Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link"><i class="fas fa-chevron-right" style="font-size: 0.75rem;"></i> Home</a></li>
+            <li><a href="project.html" class="footer-link"><i class="fas fa-chevron-right" style="font-size: 0.75rem;"></i> Documentation &amp; Live Deployment</a></li>
+            <li><a href="contact.html" class="footer-link"><i class="fas fa-chevron-right" style="font-size: 0.75rem;"></i> Contact &amp; Feedback</a></li>
+          </ul>
+        </div>
+
+        <!-- Academic Disclaimer -->
+        <div>
+          <h4 class="footer-heading">Academic Information</h4>
+          <p style="font-size: 0.88rem; line-height: 1.6;">
+            <strong>Department:</strong> Faculty of IT &amp; Computer Science<br>
+            <strong>University:</strong> Parul University, Vadodara<br>
+            <strong>Semester:</strong> BCA 1st Semester<br>
+            <strong>Academic Year:</strong> 2024–2027 Batch
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 BCA Web Development Practical Project • Designed &amp; Developed by <strong>Sumit Kumar</strong> &amp; <strong>Nitin Raj</strong>
+        </div>
+        <div class="flex gap-2 items-center">
+          <a href="project.html" class="footer-link">Deployment Guide</a>
+          <span>•</span>
+          <a href="contact.html" class="footer-link">Feedback Form</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

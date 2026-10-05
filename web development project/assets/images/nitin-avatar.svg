@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="shirt-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+    <linearGradient id="skin-grad-2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbd0a7"/>
+      <stop offset="100%" stop-color="#e8b488"/>
+    </linearGradient>
+    <filter id="avatar-shadow-2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bg-grad-2)" filter="url(#avatar-shadow-2)"/>
+  <circle cx="100" cy="100" r="90" fill="#f0fdfa" opacity="0.95"/>
+
+  <!-- Body / Hoodie -->
+  <path d="M40 185 C40 142, 68 132, 100 132 C132 132, 160 142, 160 185 Z" fill="url(#shirt-grad-2)"/>
+  <!-- Hoodie drawstrings & neckline -->
+  <path d="M85 132 Q100 156 115 132" stroke="#ccfbf1" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M92 148 L92 168" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M108 148 L108 168" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <rect x="88" y="110" width="24" height="28" rx="6" fill="url(#skin-grad-2)"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="84" rx="33" ry="39" fill="url(#skin-grad-2)"/>
+
+  <!-- Ears -->
+  <ellipse cx="66" cy="85" rx="6" ry="10" fill="url(#skin-grad-2)"/>
+  <ellipse cx="134" cy="85" rx="6" ry="10" fill="url(#skin-grad-2)"/>
+
+  <!-- Modern textured Hair -->
+  <path d="M66 76 C64 50, 82 38, 100 38 C118 38, 136 48, 134 74 C126 62, 114 58, 100 58 C84 58, 74 65, 66 76 Z" fill="#18181b"/>
+  <path d="M72 56 C82 42, 114 38, 130 46 C116 42, 92 44, 78 54 Z" fill="#27272a"/>
+  <!-- Hair strands / texture -->
+  <path d="M90 40 Q98 32 108 40" stroke="#18181b" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M78 46 Q88 36 96 44" stroke="#18181b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Over-Ear Headphones (Tech Student Look) -->
+  <path d="M64 85 C55 85, 55 70, 64 70 Z" fill="#0f766e"/>
+  <rect x="58" y="73" width="9" height="24" rx="4.5" fill="#14b8a6"/>
+  <path d="M136 85 C145 85, 145 70, 136 70 Z" fill="#0f766e"/>
+  <rect x="133" y="73" width="9" height="24" rx="4.5" fill="#14b8a6"/>
+  <path d="M62 76 C62 42, 138 42, 138 76" stroke="#0f766e" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyebrows -->
+  <path d="M78 72 Q86 68 94 71" stroke="#18181b" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M106 71 Q114 68 122 72" stroke="#18181b" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes -->
+  <circle cx="86" cy="81" r="4.2" fill="#18181b"/>
+  <circle cx="114" cy="81" r="4.2" fill="#18181b"/>
+  <circle cx="84.5" cy="79.5" r="1.5" fill="#ffffff"/>
+  <circle cx="112.5" cy="79.5" r="1.5" fill="#ffffff"/>
+
+  <!-- Nose -->
+  <path d="M100 80 L97 91 L103 91" stroke="#c89262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Warm Confident Smile -->
+  <path d="M89 101 Q100 110 111 101" stroke="#b91c1c" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Tech badge pill -->
+  <rect x="65" y="166" width="70" height="20" rx="10" fill="#0d9488"/>
+  <text x="100" y="180" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">NITIN RAJ</text>
+</svg>

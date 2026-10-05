@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumit Kumar | BCA Semester I Student Profile</title>
+  <meta name="description" content="Academic Profile of Sumit Kumar, 1st Semester BCA Student, Faculty of IT & Computer Science, Parul University.">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo.svg" alt="Project Logo" width="38" height="38">
+        <div class="brand-text">
+          <span class="brand-title">BCA Portfolio</span>
+          <span class="brand-badge">Tiny Project • Sem I</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+        <a href="sumit.html" class="nav-link active"><i class="fas fa-user-graduate"></i> Sumit's Profile</a>
+        <a href="nitin.html" class="nav-link"><i class="fas fa-user-graduate"></i> Nitin's Profile</a>
+        <a href="project.html" class="nav-link"><i class="fas fa-book-open"></i> Project &amp; Deployment</a>
+        <a href="contact.html" class="nav-link"><i class="fas fa-paper-plane"></i> Contact &amp; Feedback</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Profile Hero Banner -->
+  <section class="profile-hero">
+    <div class="container">
+      <div class="profile-hero-grid">
+        <img src="assets/images/sumit-avatar.svg" alt="Sumit Kumar" class="profile-big-avatar">
+        
+        <div class="profile-hero-info">
+          <div class="badge badge-primary" style="margin-bottom: 0.5rem;">
+            <i class="fas fa-id-badge"></i> Student 1 Profile
+          </div>
+          <h1 class="profile-title">Sumit Kumar</h1>
+          <p class="profile-subtitle">Bachelor of Computer Applications (BCA) • Semester I</p>
+          <p style="max-width: 600px; font-size: 0.98rem;">
+            Enthusiastic undergraduate student passionate about frontend web technologies, responsive interface engineering, and software fundamentals.
+          </p>
+
+          <div class="profile-quick-facts">
+            <div class="fact-item">
+              <i class="fas fa-university"></i> Parul University
+            </div>
+            <div class="fact-item">
+              <i class="fas fa-map-marker-alt"></i> Vadodara, Gujarat
+            </div>
+            <div class="fact-item">
+              <i class="fas fa-code-branch"></i> Batch 2024–2027
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-1" style="flex-direction: column;">
+          <a href="contact.html?recipient=sumit" class="btn btn-primary btn-sm">
+            <i class="fas fa-envelope"></i> Send Message
+          </a>
+          <a href="#projects" class="btn btn-secondary btn-sm">
+            <i class="fas fa-folder-open"></i> View Projects
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profile Main Content -->
+  <main class="container" style="margin-bottom: 5rem;">
+    <div class="profile-content-grid">
+      <!-- Left Column: Detailed Sections -->
+      <div>
+        <!-- About Me Section -->
+        <section class="profile-section-card">
+          <h2 class="profile-card-title">
+            <i class="fas fa-user"></i> About Me
+          </h2>
+          <p style="margin-bottom: 1rem; line-height: 1.75;">
+            Hello! I am <strong>Sumit Kumar</strong>, a first-semester BCA student at the <strong>Faculty of IT &amp; Computer Science, Parul University</strong>. My journey in technology started with a deep curiosity about how software applications and websites are built from the ground up.
+          </p>
+          <p style="margin-bottom: 1rem; line-height: 1.75;">
+            In my first semester, I am focusing on building a rock-solid foundation in <strong>Fundamentals of Web Development (HTML5, CSS3, JavaScript)</strong>, along with <strong>Programming in C</strong>, Computer Organization, and Mathematical Computing. I enjoy turning creative ideas into responsive, accessible, and clean digital experiences.
+          </p>
+          <p style="line-height: 1.75;">
+            My long-term aspiration is to evolve into a proficient Full Stack Developer, contributing to open-source software and architecting modern web platforms.
+          </p>
+        </section>
+
+        <!-- Technical Skills Section with Progress Bars -->
+        <section class="profile-section-card">
+          <h2 class="profile-card-title">
+            <i class="fas fa-code"></i> Technical &amp; Core Skills
+          </h2>
+          <p style="font-size: 0.92rem; margin-bottom: 1.5rem;">
+            Proficiencies acquired through coursework, laboratory practicals, and independent coding exploration:
+          </p>
+
+          <div class="skills-list">
+            <!-- Skill 1 -->
+            <div>
+              <div class="skill-item-header">
+                <span>HTML5 &amp; Semantic Web Architecture</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="90%"></div>
+              </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div>
+              <div class="skill-item-header">
+                <span>CSS3 (Flexbox, Grid, Custom Properties, Media Queries)</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="85%"></div>
+              </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div>
+              <div class="skill-item-header">
+                <span>Programming in C (Syntax, Logic, Conditionals &amp; Loops)</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="80%"></div>
+              </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div>
+              <div class="skill-item-header">
+                <span>JavaScript &amp; DOM Manipulation (Basics)</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="75%"></div>
+              </div>
+            </div>
+
+            <!-- Skill 5 -->
+            <div>
+              <div class="skill-item-header">
+                <span>Git Version Control &amp; GitHub Deployment</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="70%"></div>
+              </div>
+            </div>
+
+            <!-- Skill 6 -->
+            <div>
+              <div class="skill-item-header">
+                <span>Computer Fundamentals &amp; IT Concepts</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="88%"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education History Timeline -->
+        <section class="profile-section-card">
+          <h2 class="profile-card-title">
+            <i class="fas fa-graduation-cap"></i> Education Timeline
+          </h2>
+
+          <div class="timeline">
+            <!-- Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">2024 – 2027 (Ongoing)</div>
+              <h3 class="timeline-degree">Bachelor of Computer Applications (BCA)</h3>
+              <div class="timeline-institute">Faculty of IT &amp; Computer Science, Parul University, Vadodara</div>
+              <p class="timeline-desc">
+                Currently pursuing Semester I. Coursework covers Fundamentals of Web Development, C Programming, Mathematics for Computing, and Computer Fundamentals.
+              </p>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">2022 – 2024</div>
+              <h3 class="timeline-degree">Higher Secondary Certificate (HSC / Class 12)</h3>
+              <div class="timeline-institute">Senior Secondary School Education Board</div>
+              <p class="timeline-desc">
+                Completed with distinction. Focused on Mathematics, Physics, and Information Technology fundamentals.
+              </p>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">2020 – 2022</div>
+              <h3 class="timeline-degree">Secondary School Certificate (SSC / Class 10)</h3>
+              <div class="timeline-institute">State Secondary Education Board</div>
+              <p class="timeline-desc">
+                Graduated with First Class marks. Active participant in school science exhibitions and computer laboratory projects.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Academic Projects -->
+        <section class="profile-section-card" id="projects">
+          <h2 class="profile-card-title">
+            <i class="fas fa-project-diagram"></i> Academic Projects
+          </h2>
+
+          <div class="project-mini-card">
+            <div class="flex-between items-center" style="margin-bottom: 0.4rem;">
+              <h4 class="project-mini-title">Student Profile Website (Current Project)</h4>
+              <span class="badge badge-primary">HTML5 • CSS3 • JS</span>
+            </div>
+            <p class="project-mini-desc">
+              Collaborative semester practical project titled <em>“Design, Development and Live Deployment of a Student Profile Website”</em>. Designed responsive layouts, dark/light theme switcher, and deployment on GitHub Pages.
+            </p>
+            <a href="project.html" class="footer-link" style="color: var(--primary); font-weight: 600;">
+              Read Project Details &rarr;
+            </a>
+          </div>
+
+          <div class="project-mini-card">
+            <div class="flex-between items-center" style="margin-bottom: 0.4rem;">
+              <h4 class="project-mini-title">C Programming Mathematical Utilities</h4>
+              <span class="badge">C Language</span>
+            </div>
+            <p class="project-mini-desc">
+              Developed console-based programs in C to calculate geometric areas, fibonacci series, matrix operations, and number system conversions.
+            </p>
+          </div>
+
+          <div class="project-mini-card">
+            <div class="flex-between items-center" style="margin-bottom: 0.4rem;">
+              <h4 class="project-mini-title">Interactive Unit Converter Webpage</h4>
+              <span class="badge">HTML &amp; CSS</span>
+            </div>
+            <p class="project-mini-desc">
+              A clean webpage demonstrating CSS flexbox grid design for temperature and distance conversion formulas.
+            </p>
+          </div>
+        </section>
+
+        <!-- Achievements & Certifications -->
+        <section class="profile-section-card">
+          <h2 class="profile-card-title">
+            <i class="fas fa-trophy"></i> Achievements &amp; Certifications
+          </h2>
+
+          <ul style="display: flex; flex-direction: column; gap: 1rem;">
+            <li style="display: flex; gap: 0.8rem; align-items: flex-start;">
+              <i class="fas fa-certificate" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
+              <div>
+                <strong>Web Development Foundations Certificate</strong>
+                <p style="font-size: 0.88rem;">Completed online practical workshops on HTML5 &amp; modern CSS layout techniques.</p>
+              </div>
+            </li>
+
+            <li style="display: flex; gap: 0.8rem; align-items: flex-start;">
+              <i class="fas fa-award" style="color: var(--secondary); font-size: 1.2rem; margin-top: 3px;"></i>
+              <div>
+                <strong>C Programming Lab Distinction</strong>
+                <p style="font-size: 0.88rem;">Consistently rated satisfactory in laboratory assignments and algorithm flowcharts.</p>
+              </div>
+            </li>
+
+            <li style="display: flex; gap: 0.8rem; align-items: flex-start;">
+              <i class="fas fa-medal" style="color: var(--accent); font-size: 1.2rem; margin-top: 3px;"></i>
+              <div>
+                <strong>Inter-School IT Quiz Finalist</strong>
+                <p style="font-size: 0.88rem;">Awarded top 5 ranking in computer knowledge and digital literacy competition.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Hobbies & Extracurriculars -->
+        <section class="profile-section-card">
+          <h2 class="profile-card-title">
+            <i class="fas fa-heart"></i> Hobbies &amp; Personal Interests
+          </h2>
+
+          <div class="hobbies-grid">
+            <div class="hobby-card">
+              <div class="hobby-icon">🌐</div>
+              <div class="hobby-title">Web Surfing &amp; Tech Trends</div>
+            </div>
+
+            <div class="hobby-card">
+              <div class="hobby-icon">♟️</div>
+              <div class="hobby-title">Chess Strategy</div>
+            </div>
+
+            <div class="hobby-card">
+              <div class="hobby-icon">✍️</div>
+              <div class="hobby-title">Tech Notes &amp; Blogging</div>
+            </div>
+
+            <div class="hobby-card">
+              <div class="hobby-icon">🖥️</div>
+              <div class="hobby-title">PC Hardware Setup</div>
+            </div>
+
+            <div class="hobby-card">
+              <div class="hobby-icon">📸</div>
+              <div class="hobby-title">Photography</div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column: Sticky Sidebar -->
+      <aside class="profile-sidebar">
+        <!-- Academic Summary Card -->
+        <div class="sidebar-card">
+          <h3 class="sidebar-title">Academic Highlights</h3>
+          
+          <div class="stats-grid">
+            <div class="stat-box">
+              <div class="stat-number" data-target="5" data-suffix="+">0</div>
+              <div class="stat-label">Mini Projects</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number" data-target="8" data-suffix="+">0</div>
+              <div class="stat-label">Key Skills</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number" data-target="3" data-suffix="">0</div>
+              <div class="stat-label">Certificates</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number" data-target="100" data-suffix="+">0</div>
+              <div class="stat-label">Lab Hours</div>
+            </div>
+          </div>
+
+          <div style="border-top: 1px solid var(--border-color); padding-top: 1.2rem;">
+            <p style="font-size: 0.88rem; margin-bottom: 0.8rem;">
+              <strong>Course:</strong> BCA (1st Semester)<br>
+              <strong>Status:</strong> Active Undergraduate<br>
+              <strong>Specialization:</strong> Web &amp; Software Dev
+            </p>
+          </div>
+        </div>
+
+        <!-- Social & Contact Card -->
+        <div class="sidebar-card">
+          <h3 class="sidebar-title">Connect with Sumit</h3>
+          <p style="font-size: 0.88rem; margin-bottom: 1.2rem;">
+            Feel free to connect for academic queries, coding collaboration, or web development feedback:
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 1.5rem;">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="justify-content: flex-start;">
+              <i class="fab fa-linkedin" style="color: #0077b5;"></i> LinkedIn Profile
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="justify-content: flex-start;">
+              <i class="fab fa-github"></i> GitHub Repositories
+            </a>
+            <a href="mailto:sumit.student@example.com" class="btn btn-secondary btn-sm" style="justify-content: flex-start;">
+              <i class="fas fa-envelope" style="color: var(--primary);"></i> Email Address
+            </a>
+          </div>
+
+          <a href="contact.html?recipient=sumit" class="btn btn-primary" style="width: 100%;">
+            <i class="fas fa-paper-plane"></i> Send Feedback / Query
+          </a>
+        </div>
+
+        <!-- Partner Profile Switcher -->
+        <div class="sidebar-card" style="background: var(--bg-subtle);">
+          <div class="flex items-center gap-1" style="margin-bottom: 0.8rem;">
+            <img src="assets/images/nitin-avatar.svg" alt="Nitin Raj" style="width: 44px; height: 44px; border-radius: 50%;">
+            <div>
+              <div style="font-size: 0.85rem; font-weight: 700;">Partner Profile</div>
+              <div style="font-size: 0.95rem; font-weight: 700;">Nitin Raj</div>
+            </div>
+          </div>
+          <p style="font-size: 0.85rem; margin-bottom: 1rem;">
+            View Nitin's academic profile, C programming achievements, and project contributions.
+          </p>
+          <a href="nitin.html" class="btn btn-outline-primary btn-sm" style="width: 100%;">
+            Switch to Nitin's Profile &rarr;
+          </a>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 BCA Web Development Practical Project • <strong>Sumit Kumar</strong> &amp; <strong>Nitin Raj</strong>
+        </div>
+        <div class="flex gap-2 items-center">
+          <a href="index.html" class="footer-link">Home</a>
+          <span>•</span>
+          <a href="nitin.html" class="footer-link">Nitin's Profile</a>
+          <span>•</span>
+          <a href="project.html" class="footer-link">Project Details</a>
+          <span>•</span>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
